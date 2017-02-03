@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3EB5C7881E3A316A00872B0D /* まる.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3EB5C7871E3A316A00872B0D /* まる.jpg */; };
+		3EC39AA01E3B88950081C56B /* まる２.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EC39A9F1E3B88950081C56B /* まる２.png */; };
 		3EFE01CA1E3976490025DE75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFE01C91E3976490025DE75 /* AppDelegate.swift */; };
 		3EFE01CC1E3976490025DE75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFE01CB1E3976490025DE75 /* ViewController.swift */; };
 		3EFE01CF1E3976490025DE75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EFE01CD1E3976490025DE75 /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3EB5C7871E3A316A00872B0D /* まる.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "まる.jpg"; sourceTree = "<group>"; };
+		3EC39A9F1E3B88950081C56B /* まる２.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "まる２.png"; sourceTree = "<group>"; };
 		3EFE01C61E3976490025DE75 /* Count.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Count.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EFE01C91E3976490025DE75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3EFE01CB1E3976490025DE75 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,9 +101,11 @@
 		3EFE01C81E3976490025DE75 /* Count */ = {
 			isa = PBXGroup;
 			children = (
+				3EB5C7871E3A316A00872B0D /* まる.jpg */,
 				3EFE01C91E3976490025DE75 /* AppDelegate.swift */,
 				3EFE01CB1E3976490025DE75 /* ViewController.swift */,
 				3EFE01CD1E3976490025DE75 /* Main.storyboard */,
+				3EC39A9F1E3B88950081C56B /* まる２.png */,
 				3EFE01D01E3976490025DE75 /* Assets.xcassets */,
 				3EFE01D21E3976490025DE75 /* LaunchScreen.storyboard */,
 				3EFE01D51E3976490025DE75 /* Info.plist */,
@@ -232,6 +238,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EC39AA01E3B88950081C56B /* まる２.png in Resources */,
+				3EB5C7881E3A316A00872B0D /* まる.jpg in Resources */,
 				3EFE01D41E3976490025DE75 /* LaunchScreen.storyboard in Resources */,
 				3EFE01D11E3976490025DE75 /* Assets.xcassets in Resources */,
 				3EFE01CF1E3976490025DE75 /* Main.storyboard in Resources */,
@@ -503,6 +511,7 @@
 				3EFE01F01E3976490025DE75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3EFE01F11E3976490025DE75 /* Build configuration list for PBXNativeTarget "CountTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +520,7 @@
 				3EFE01F31E3976490025DE75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3EFE01F41E3976490025DE75 /* Build configuration list for PBXNativeTarget "CountUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +529,7 @@
 				3EFE01F61E3976490025DE75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

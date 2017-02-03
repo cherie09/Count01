@@ -9,17 +9,49 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    var number: Int = 0
+    var images: [String] = ["まる.jpg","まる２.png","まる.jpg","まる２.png"]
+    @IBOutlet var label: UILabel!
+    @IBOutlet var imageView: UIImageView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        //画像変える！
+        imageView.image = UIImage(named: images[1])
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
+    
+    
+    @IBAction func plus () {
+        if number == 3 {
+            number = 0
+        } else {
+            number = number + 1
+        }
+        imageView.image = UIImage(named: images[number])
 
-
+        label.text = String (number)
+        
+    }
+    
+    @IBAction func minus () {
+        if number == 0 {
+            number = 3
+        }else {
+            number = number - 1
+        }
+        imageView.image = UIImage(named: images[number])
+        
+        label.text = String (number)
+    }
+    
 }
+
 
