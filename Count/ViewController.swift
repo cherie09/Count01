@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController {
     
     var number: Int = 0
-    var images: [String] = ["まる.jpg","まる２.png","まる.jpg","まる２.png"]
+    var images: [String] = ["まる.jpg","まる２.png","まる.jpg"]
     @IBOutlet var label: UILabel!
     @IBOutlet var imageView: UIImageView!
     
@@ -31,7 +31,7 @@ class ViewController: UIViewController {
     
     @IBAction func plus () {
         number = number + 1
-        imageView.image = UIImage(named: images[number%4])
+        imageView.image = UIImage(named: images[number%3])
 
         label.text = String (number)
         
@@ -39,7 +39,7 @@ class ViewController: UIViewController {
     
     @IBAction func minus () {
         if number == 0 {
-            number = 3
+            number = 2
         }else {
             number = number - 1
         }
