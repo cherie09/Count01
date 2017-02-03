@@ -30,12 +30,8 @@ class ViewController: UIViewController {
     
     
     @IBAction func plus () {
-        if number == 3 {
-            number = 0
-        } else {
-            number = number + 1
-        }
-        imageView.image = UIImage(named: images[number])
+        number = number + 1
+        imageView.image = UIImage(named: images[number%4])
 
         label.text = String (number)
         
